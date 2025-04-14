@@ -12,7 +12,6 @@ const Search = () => {
     setIsDisplay((prevState) => !prevState);
 
     setSearch(e.target.value);
-    setIsDisplay(value.trim() !== ""); // אם יש טקסט – תציג
 
   };
 
