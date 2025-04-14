@@ -29,7 +29,7 @@ const Search = () => {
       });
   };
   return (
-    <div className="relative">
+    <div className="relative z-10">
       <Input
         onChange={handleChange}
         value={search}
@@ -37,7 +37,7 @@ const Search = () => {
       />
 
       {isDisplay === true && (
-        <div className="bg-white z-20 absolute w-full rounded-lg mt-2 max-h-60 overflow-y-auto">
+        <div className="bg-white  z-50 absolute w-full rounded-lg mt-2 max-h-60 overflow-y-auto">
           {products
             .filter((item) => {
               return search.toLowerCase() === ""
