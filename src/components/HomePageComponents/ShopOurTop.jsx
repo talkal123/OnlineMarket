@@ -48,7 +48,7 @@ const ShopOurTop = () => {
               alt={item.title}
             />
             <div className='absolute top-0 left-0 w-full text-center  text-white p-2'>
-              <h1 className='font-bold text-2xl'>{item.title}</h1>
+              <h1 className='font-bold text-xl'>{item.title}</h1>
             </div>
           </div>
         ))}

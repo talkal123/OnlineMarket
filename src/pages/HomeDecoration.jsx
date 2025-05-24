@@ -42,9 +42,9 @@ const HomeDecoration = () => {
     <div className="flex flex-col gap-12 p-5">
         <div className="mt-24 flex gap-2">
         <select id="select-option" value={category} onChange={handleCategoryChange} className="border p-2 rounded-full bg-gray-100">
-          <option value="home-decoration">home-decoration</option>
-          <option value="kitchen-accessories">kitchen-accessories</option>
-          <option value="furniture">furniture</option>
+          <option value="home-decoration">Home-decoration</option>
+          <option value="kitchen-accessories">Kitchen-accessories</option>
+          <option value="furniture">Furniture</option>
         </select>
 
          <select id="select-price-range" value={priceRange} onChange={handlePriceRangeChange} className="border p-2 rounded-full bg-gray-100">

@@ -73,7 +73,7 @@ const OrderSummery = ({handleClick,cart,cartDetails,formValuesDelivery,price,isP
             <p className='text-red-500'> {formErrors.CardNumber}</p>
           </div>
         </div>
-        <div className='flex gap-5'>
+        <div className='flex flex-col gap-5 md:grid grid-cols-2'>
           <div className='gap-2 flex flex-col'>
             <h1 className='font-semibold'>Expiry*</h1>
             <input onChange={handleChangeOrder} type="text" value={formValues.expiry} name='expiry' placeholder='Type here...' className='p-3 border rounded-md' />
