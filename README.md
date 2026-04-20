@@ -1,8 +1,26 @@
-# React + Vite
+# 🛒 Online Storefront - External API Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive E-commerce application that fetches real-time product data from an external API. This project demonstrates advanced frontend logic, state management, and seamless UI/UX design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
+
+* **Dynamic Product Catalog:** Fetches and displays products dynamically using an external REST API.
+* **Shopping Cart System:** Fully functional cart with the ability to add, remove, and update quantities.
+* **Category Filtering:** Filter products by categories to improve user experience.
+* **Responsive Design:** Optimized for all devices, from mobile to desktop.
+* **Fast Performance:** Optimized rendering for smooth navigation and quick load times.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js  (Choose one)
+* **Styling:** Tailwind CSS / CSS Modules
+* **API Handling:** Axios / Fetch API
+* **Deployment:** Vercel
+
+---
+
+
