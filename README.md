@@ -16,7 +16,7 @@ A modern, responsive E-commerce application that fetches real-time product data 
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React.js  (Choose one)
+* **Frontend:** React.js  
 * **Styling:** Tailwind CSS / CSS Modules
 * **API Handling:** Axios / Fetch API
 * **Deployment:** Vercel
