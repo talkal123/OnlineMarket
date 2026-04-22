@@ -18,7 +18,6 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import Footer from "@/components/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SignInPage from "./SignInPage";
 
 const HomePage = () => {
   const [products, setProducts] = useState([]);
@@ -31,10 +30,6 @@ const HomePage = () => {
     {
       email:"tal153@gmail.com",
       password:"tal1212#"
-    },
-    {
-      email:"shany153@gmail.com",
-      password:"shany153#"
     },
     {
       email:"lia2003@walla.com",
