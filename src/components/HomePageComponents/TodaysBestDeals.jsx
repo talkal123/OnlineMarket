@@ -45,7 +45,7 @@ const TodaysBestDeals = () => {
   }
 
   return (
-    <div className="p-5 flex flex-col gap-12 mt-28" data-aos="zoom-out">
+    <div className="p-5 flex flex-col gap-12 mt-28" >
       <h1 className="font-bold text-3xl">Todays Best Deals for you!</h1>
       <div className="inline md:flex">
   {arr.map((item, index) => (

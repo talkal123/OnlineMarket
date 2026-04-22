@@ -106,9 +106,9 @@ const HomePage = () => {
 
   return (
     <div>
-      {isDisplay === true ? (
+      {/* {isDisplay === true ? (
         <SignInPage isDisplayFunc={isDisplayFunc} isDisplay={isDisplay} SignInBtn={SignInBtn} inputValues={inputValues} values={values} users/>
-      ) : (
+      ) : ( */}
         <>
           <HeaderPhoto
             image={imageUrl}
@@ -118,7 +118,7 @@ const HomePage = () => {
             }
           />
           <ShopOurTop />
-          <div className="p-2 flex flex-col gap-12 mt-28" data-aos="slide-left">
+          <div className="p-2 flex flex-col gap-12 mt-28" data-aos="zoom-in">
             <h1 className="font-bold text-3xl">Todays Best Deals for you!</h1>
             <ScrollArea className="w-full pb-6">
               <div className="grid grid-cols-1 gap-5 md:flex">
@@ -151,7 +151,7 @@ const HomePage = () => {
           <ServicesToHelp />
           <Footer />
         </>
-      )}
+      {/* )} */}
     </div>
   );
 };
